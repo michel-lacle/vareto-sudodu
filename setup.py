@@ -14,12 +14,12 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="minimal_example_project",
+    name="vareto-soduku",
     version="1.0.3",
     author='Michel Lacle',
-    author_email='michel+pypi@f1kart.com',
-    url='https://github.com/michel-lacle/minimal_example_project',
-    description="a minimal Python project example with unit testing, command line interface, PyPi publishing capabilities",
+    author_email='michel+vareto@f1kart.com',
+    url='https://github.com/michel-lacle/vareto-soduku',
+    description="a basic example on how to solve a soduku efficiently",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(where='src', exclude=['env', 'tests', 'infrastructure']),
